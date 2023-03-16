@@ -41,10 +41,6 @@ header img {
   margin-left: 97px;
 }
 
-.list-button button {
-  background-color: white;
-  border: none;
-}
 
 .search {
   display: flex;
@@ -68,11 +64,106 @@ header img {
   height: 16px;
 }
 
-.min-nav-list {
+.list-button button {
+  background-color: white;
+  border: none;
+}
+.first-ad {
   display: flex;
-  margin-left: 103px;
+  background-image:url(Ellipse.png) ;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.min-nav-list li:last-of-type{
-  font-weight: 700;
+.info h1 {
+  margin: 273px 134px 0 185px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+
+  color: #1B1A17;
 }
+
+.info h2 {
+  margin: 16px 0 39px 185px ;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #1B1A17;
+}
+
+.info p {
+  margin: 0 0 64px 185px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.info button {
+  margin: 0 0 239px 181px;
+  width: 205px;
+  height: 64px;
+  left: 181px;
+  top: 553px;
+
+  background: #444240;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.product-presentation img {
+  display: flexbox;
+}
+
+.popular-models h1 {
+  margin: 79px 530px 0 530px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+
+  color: #1B1A17;
+}
+
+.popular-models a {
+  margin: 115px 98px 0 1164px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-1 {
+  width: 370px;
+  margin: 34px;
+}
+
+.card-2 {
+  width: 370px;
+  margin: 34px;
+}
+
+.card-3 {
+  width: 370px;
+  margin: 34px;
+}
+  
