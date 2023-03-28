@@ -52,7 +52,7 @@ header img {
 .like {
   display: flex;
   background-image: url(Like.svg);
-  width: 22px;
+  width: 21px;
   height: 18px;
   margin: 0 23px;
 }
@@ -73,6 +73,7 @@ header img {
   background-image:url(Ellipse.png) ;
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 .info h1 {
@@ -143,7 +144,7 @@ header img {
   color: #1B1A17;
 }
 
-.popular-models a {
+.look-all {
   margin: 115px 98px 0 1164px;
 }
 
@@ -166,4 +167,59 @@ ul {
   width: 370px;
   margin: 34px;
 }
-  
+
+.popular-models .price{
+  font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+color: rgba(27, 26, 23, 0.82);
+}
+
+.popular-models ul {
+  margin-left: 98px;
+}
+
+.popular-models .card-2 {
+  margin: 34px 10px 0 10px;
+}
+
+.look-all {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.popular-models li p{
+  margin-bottom: 0;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.price {
+  margin-top: 10px;
+
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: rgba(27, 26, 23, 0.82);
+}
+
+.popular-models li{
+  background-image:url(Ellipse.svg) ;
+  background-position-y: 75px;
+  background-position-x: 15px;
+  background-repeat: no-repeat;
+}
